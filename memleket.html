@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Memleket</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet" >
+    <style>
+      .img{
+         cursor:pointer;
+        transition:0.9s;
+      }
+      .img:hover{
+        transform: scale(0.9);
+      }
+      .zoom img {
+
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      transition: all 1s ease;
+
+      }
+        
+    .zoom img:hover {
+
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+
+    }
+    </style>
+</head>
+<body>
+      <!-- Burası üst menü -->
+      <ul style="font-family:'Times New Roman', Times, serif; background-image:url(resimler/arkamenu.jpg);background-size: 100% 100%;" class="w-3 p-3 nav nav-tabs justify-content-center fs-5 ">
+     
+        <li class="nav-item">
+          <a class="nav-link  text-dark img fas fa-home " href="anasayfa.html"> ANASAYFA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark img fas fa-users" href="arkadaslar.html"> ARKADAŞLAR</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-light bg-dark img fas fa-map-marked-alt" aria-current="page" href="memleket.html"> MEMLEKET</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark img fas fa-star" href="hobi.html"> HOBİ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark img fas fa-user-tie" href="ozgecmis.html"> ÖZGEÇMİŞ</a>
+          </li>
+      </ul></div> 
+   <!-- Burası karınca-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div style="height: 400px; width: 100%; cursor:pointer;" class="carousel-inner ">
+          <div class="carousel-item active">
+            <img src="resimler/Uzungöl.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="resimler/sümela.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="resimler/boztepe.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="resimler/stadyum.jpg" class="d-block w-100" alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<br><br>
+
+<!-- Burası başlık -->
+<h1 style="text-align: center; font-size: 100px; font-family:Monotype Corsiva;">TRABZON</h1>
+
+<br><br>
+
+<!-- Burası ikinci başlık -->
+<h3 style="text-align: center; font-size: 50px; font-family:Century;">- Gezilecek yerler ve yöresel lezzetler -</h3>
+
+<br>
+
+<!-- Burası dolgu kafesler -->
+    <div class="row ">
+    <div class="col-2"></div>
+      <div class="col-8 container overflow-hidden">
+        <div class="row gx-5">
+          <div class="col">
+           <div class="p-3 border bg-light zoom"style="text-align: center;">
+             <img style="cursor:pointer; height:250px;" src="resimler/manastır1.jpg" alt="">
+           </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light" style="font-family:Century;"><h1>Sümela manastır</h1>
+              Sümela Manastırı, Trabzon'un Maçka ilçesinde bir tepe üzerinde konumlanan tarihî bir manastırdır. Yerden yüksekliği yaklaşık 1.150 metre olan manastır dağların arasına inşa edilmiş bir mühendislik harikasıdır. Yapı, eski bir Rum Ortodoks manastır ve kilise kompleksidir.
+<br><br>
+              <!-- Burası bilgi açma kapama -->
+      <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Daha fazla Manastır için tıklayınız.</button>
+      <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-body">
+          <p>.....</p>
+        </div>
+      </div>
+      <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title fw-bolder" id="offcanvasWithBothOptionsLabel" style="font-family:Georgia;" >Manastırlar</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul>
+            <li>Meryem Ana (Sumela) Manastırı</li>
+            <li>Vezalon (Yahya) Manastırı</li>
+            <li>Kuştul - Hızır İlyas Manastırı ( Gregorius Peristera)</li>
+            <li>Kaymaklı Manastırı</li>
+            <li>Kızlar (Panagia Theokephastros) Manastırı</li>
+         </ul><br>
+         <h4 style="text-align: center;">Vezalon (Yahya) Manastırı</h4>
+         <img style="height: 200px;" src="resimler/vezalonmanastır.jpg" alt="">
+          <p>Maçka ilçesinin kiremitli köyünün 7 km batısında çam ormanları içerisinde bulunur. Bu manastırda da bir mağara ve ayazma vardır.
+
+            İlk manastır mağaranın önünde kurulmuştur. Bugün ayakta kalan mağaranın önündeki kilise ve keşiş odaları, 19.yüzyıla aittir. Kompleksin 9 km kuzeyindeki şapel 15.yüzyıla tarihlenmekte ve içerisinde değerli freskler bulunmaktadır.</p>
+          <br>
+            <h4 style="text-align: center;">Kuştul - Hızır İlyas Manastırı</h4>
+            <img style="height: 200px;" src="resimler/gregoriusmanastır.jpg" alt="">
+            <p>Peristera adıyla anılan manastırdır. Bu manastır 8. yüzyılın ortalarında Maçka’nın Şimşirli Köyü yakınlarında, kurulmuş ve daha sonra gelişmiştir. Günümüze ancak manastırın temelleri ulaşabilmiştir.</p>
+        <br>
+            <h4 style="text-align: center;">Kaymaklı Manastırı</h4>
+            <img style="height: 200px;" src="resimler/kaymaklımanastırı.jpg" alt="">
+            <p>rabzon’un 3 km güneydoğusunda Boztepe'nin Değirmendere vadisine bakan yakasında kurulmuştur. 1424 yılında inşa edilmiştir. Yapılar topluluğu dikdörtgen alan içerisinde, ortada tek apsisli kilise, kuzey batıda çan kulesi, güney doğuda ise küçük bir şapel ve manastır hücrelerinden oluşmaktadır.
+
+              Manastır yapıları birçok defa onarım görmüştür. En eski kısım kilisenin beşken apsis bölümüdür. Kilise içerisindeki freskler 18. yüzyıla tarihlenmektedir.</p>
+<br>
+            <h4 style="text-align: center;">Kızlar (Panagia Theokephastros) Manastırı</h4>
+            <img style="height: 200px;" src="resimler/kızlarmanastırı.jpg" alt="">
+            <p>Bu manastır, Trabzon-Hamsiköyü yolu üzerinde kiremitli köyü vadisi üzerinde yer almaktadır. Yerin isminin manası şimdiye kadar anlaşılamamıştır.Buraya ilk kez kimlerin geldiğini belirten bir kitabe yoktur.
+
+              Sumela veya Vazelon manastırlarının bir minyatürü olan bu yapıda, kutsal bir mağara ile tamamlanır.Günümüze kadar gelen taş bölümler, bu manastırın Orta çağ'da yapılmış olduğu hissini uyandırıyorsa da, yapı 1858 yılında inşa edilmiştir.</p>
+<br>
+        
+        
+        
+        
+        
+        
+          </div>
+      </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2"></div>
+      </div>
+
+      <br>
+
+      <div class="row ">
+        <div class="col-2"></div>
+          <div class="col-8 container overflow-hidden">
+            <div class="row gx-5">
+              <div class="col"><br>
+               <div class="p-3 border bg-light ">
+                <h1 style="font-family:Century;">Atatürk Köşkü</h1> 
+                <p>Trabzon Atatürk Köşkü, Soğuksu semtinde küçük bir çam korusu içinde yer alır. Yirminci yüzyılın hemen başında yaptırılmış 1923'ten sonra hazineye kalmıştır. Atatürk 1934 ve 1937 yıllarındaki Trabzon ziyaretlerinde, bu köşkte konuk edilmiştir.</p></div>
+              </div>
+              <div class="col">
+                <div class="p-3 border bg-light zoom">
+                  <img style="cursor:pointer; height:250px;" src="resimler/köşkler.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-2"></div>
+          </div>
+
+          <br>
+
+          <div class="row ">
+            <div class="col-2"></div>
+              <div class="col-8 container overflow-hidden">
+                <div class="row gx-5">
+                  <div class="col">
+                   <div class="p-3 border bg-light zoom">
+                     <img style="cursor:pointer; height:250px;" src="resimler/müzeler.jpg" alt="">
+                   </div>
+                  </div>
+                  <div class="col"><br>
+                    <div class="p-3 border bg-light">
+                      <h1 style="font-family:Century;">Ayasofya</h1>
+                      Kentin batı girişinde sahil karayolunun üzerindedir. Anıt müze olan yapı Trabzon’daki Bizans devri yapılarının en önemlilerinden biridir. 1238 – 1263 yılları arasında, I. Manuel Komnenos zamanında, Bizans taşra üslubunun, Gürcü soğan kubbe, Selçuklu taş işlemeciliği ile bir harmoni içinde kullanılmasıyla bir manastır kilisesi olarak inşa edilmiştir.</div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-2"></div>
+              </div>
+
+              <br>
+
+              <div class="row ">
+                <div class="col-2"></div>
+                  <div class="col-8 container overflow-hidden">
+                    <div class="row gx-5">
+                      <div class="col"><br>
+                       <div class="p-3 border bg-light">
+                        <h1 style="font-family:Century;">Çal Mağrası</h1>
+                        Dünyanın en uzun 2. mağarası olma özelliğine sahip Çal Mağarası, mutlaka görülmesi gereken yerler arasında bulunuyor. Trabzon'un Düzköy ilçesinde yer alan mağara bir yer altı su kanalıdır.400 metrelik yürüyüş alanına sahip mağaranın içerisinde dere, şelale ve gölet de yer alıyor.
+                      </div>
+                      </div>
+                      <div class="col">
+                        <div class="p-3 border bg-light zoom">
+                          <img style="cursor:pointer; height:250px;" src="resimler/magralar.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-2"></div>
+                  </div>
+
+                  <br>
+
+                  <div class="row ">
+                    <div class="col-2"></div>
+                      <div class="col-8 container overflow-hidden">
+                        <div class="row gx-5">
+                          <div class="col">
+                           <div class="p-3 border bg-light zoom">
+                             <img style="cursor:pointer; height:250px; " src="resimler/göller.jpg" alt="">
+                           </div>
+                          </div>
+                          <div class="col">
+                            <div class="p-3 border bg-light">
+                              <h1 style="font-family:Century;">Uzungöl</h1>
+                              Trabzon’un merkezinden 99 kilometre uzaklıkta olan Uzungöl, Türkiye’nin doğa harikası olabilecek yerlerinden biridir. Yerli ve yabancı turistlerin ilgisini her geçen gün daha fazla çeken Uzungöl, 1100 metrelik bir rakıma sahiptir. Uzungöl, Kaçkar Dağları ile Soğanlı Dağları’nın birleştiği alanda yer almaktadır. Trabzon ilinin turistik cenneti olarak görülen Uzungöl, yemyeşil bitki örtüsüne sahip bir yayla köyüdür.
+                            <br>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-2"></div>
+                      </div>
+
+                      <br>
+
+          <!-- Burası yemek kısmı -->
+                  <div class="row ">
+                    <div class="col-2"></div>
+                      <div class="col-8 container overflow-hidden">
+                        <div class="row gx-5">
+                          <div class="col"><br><br>
+                           <div class="p-3 border bg-light">
+                             <h1 style="font-family:Century ;">Kuymak</h1>
+                            Tereyağı, mısır unu ve peynir ile hazırlanan kuymak, 'mıhlama' ismiyle de bilinir. Bu yemek, kahvaltının yanı sıra öğle ve akşam yemeklerinde de sunulmaktadır.</div>
+                          </div>
+                          <div class="col">
+                            <div class="p-3 border bg-light zoom" style="text-align: center;">
+                              <img style="cursor:pointer; height:250px; " src="resimler/kuymak1.jpg" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-2"></div>
+                      </div>
+                  
+                      <br>
+
+                      <div class="row ">
+                        <div class="col-2"></div>
+                          <div class="col-8 container overflow-hidden">
+                            <div class="row gx-5">
+                              <div class="col">
+                               <div class="p-3 border bg-light zoom"style="text-align: center;">
+                                 <img style="cursor:pointer; height:250px;" src="resimler/hamsi.jfif" alt="">
+                               </div>
+                              </div>
+                              <div class="col"><br><br>
+                                <div class="p-3 border bg-light">
+                                  <h1 style="font-family:Century;">Hamsi Tava</h1>
+                                  Geleneksel Trabzon mutfağının, hamsinin en çok kullanıldığı mutfaklardan biridir. Özellikle kızartılarak limonla servis edilen hamsi tava, kültürel bir önem taşımaktadır.
+                                <br>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-2"></div>
+                          </div>
+
+                        <br>
+
+                        <div class="row ">
+                          <div class="col-2"></div>
+                            <div class="col-8 container overflow-hidden">
+                              <div class="row gx-5">
+                                <div class="col"><br><br>
+                                 <div class="p-3 border bg-light">
+                                   <h1 style="font-family:Century ;">Hamsili Pilav</h1>
+                                   Daha önce bahsettiğimiz gibi yöre mutfağında hamsi, sık sık kullanılır. Trabzon mutfağı denildiğinde ilk akla gelen yemeklerden biri de hamsili pilavdır. Hazırlanan pilavlı harç, hamsi balığı ile kapatılır ve fırında pişirilir. </div>
+                                </div>
+                                <div class="col">
+                                  <div class="p-3 border bg-light zoom " style="text-align: center;">
+                                    <img style="cursor:pointer; height:250px; " src="resimler/hamsilipilav.jfif" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-2"></div>
+                            </div>
+
+                            <br>
+
+                            <div class="row ">
+                              <div class="col-2"></div>
+                                <div class="col-8 container overflow-hidden">
+                                  <div class="row gx-5">
+                                    <div class="col">
+                                     <div class="p-3 border bg-light zoom"style="text-align: center;">
+                                       <img style="cursor:pointer; height:250px;" src="resimler/akcabatkoftesi.jfif" alt="">
+                                     </div>
+                                    </div>
+                                    <div class="col"><br><br>
+                                      <div class="p-3 border bg-light">
+                                        <h1 style="font-family:Century;">Akçaabat Köftesi</h1>
+                                        Farklı lezzetiyle Trabzon yöresinin meşhur yemeklerinden olan akçaabat köfte, ismini Trabzon'un Akçaabat ilçesinden almaktadır. 
+                                      <br>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-2"></div>
+                                </div>
+      
+                              <br>
+
+                              <div class="row ">
+                                <div class="col-2"></div>
+                                  <div class="col-8 container overflow-hidden">
+                                    <div class="row gx-5">
+                                      <div class="col"><br><br>
+                                       <div class="p-3 border bg-light">
+                                         <h1 style="font-family:Century ;">Karalahana Sarması</h1>
+                                         Yörede çok fazla kullanılan karalahana, sarma yapımında da tercih edilmektedir. Genellikle etli bir şekilde hazırlanır. Karalahana sarması yoğurt ve salçalı sos eşliğinde sunulur. </div>
+                                      </div>
+                                      <div class="col">
+                                        <div class="p-3 border bg-light zoom" style="text-align: center;">
+                                          <img style="cursor:pointer; height:250px; " src="resimler/karalahanasarma.jfif" alt="">
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-2"></div>
+                                  </div>
+      
+                                  <br>
+
+                                  <div class="row ">
+                                    <div class="col-2"></div>
+                                      <div class="col-8 container overflow-hidden">
+                                        <div class="row gx-5">
+                                          <div class="col">
+                                           <div class="p-3 border bg-light zoom"style="text-align: center;">
+                                             <img style="cursor:pointer; height:250px;" src="resimler/hamsiköysütlacı.jfif" alt="">
+                                           </div>
+                                          </div>
+                                          <div class="col"><br><br>
+                                            <div class="p-3 border bg-light">
+                                              <h1 style="font-family:Century;">Hamsiköy sütlaç</h1>
+                                              Trabzon'un Hamsiköy yöresi ile özdeşleşen bu sütlaç, Türk Patent Kurumu tarafından tescillenmiştir. Hamsiköy sütlacı fırında pişirildikten sonra fındık ile servis edilir.
+                                            <br>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-2"></div>
+                                      </div>
+            
+                                    <br>
+                              <!-- Burası tanıtım başlık-->
+                                    <h3 style="text-align: center; font-size: 50px; font-family:Century;">TANITIM VİDEOSU</h3>
+                                  
+                                    <br>
+                                  <!-- Burası tanıtım videosu -->
+                                    <div class="row">
+                                    <div class="col"></div>
+                                  <div class="col-7">
+                                    <iframe  width="900" height="506" src="https://www.youtube.com/embed/Kje5lx1cdT0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                  </div>
+                                  <div class="col"></div>
+                                </div>
+                                
+                                <br>
+
+
+
+          <!-- Kayan yazı  -->
+ <marquee behavior=alternate><strong>Asım Mutlu</strong></marquee>
+
+ <!-- Burası en alt icon kısım  -->
+<div class="text-center">   
+ <ul style="margin:0; padding:0;">
+   <li style="display:inline-block; list-style:none; letter-spacing: 10px;">
+       <a style="color:rgb(0, 132, 255); font-size:45px"  href="https://www.facebook.com/profile.php?id=100002167157051"target="_blank"><i class="fab fa-facebook img"></i></a>
+       <a style="color:rgb(0, 174, 255); font-size:45px" href="https://twitter.com/Asim_Mutlu_"target="_blank"><i class="fab fa-twitter img"></i></a>
+       <a style="color:rgb(231, 77, 66); font-size:45px" href="https://www.instagram.com/_asim_mutlu_/?hl=tr"target="_blank img"><i class="fab fa-instagram img"></i></a>
+   </li>
+</ul>    
+</div>
+
+  <!-- Site Yukarı Çıkma Kodu -->
+  <script language="javascript" src="http://ir.sitekodlari.com/yukaricik1.js"></script>
+<br>
+</body>
+</html>

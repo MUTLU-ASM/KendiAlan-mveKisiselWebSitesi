@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Özgeçmiş</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet" >
+    <style>
+      .img{
+         cursor:pointer;
+        transition:0.9s;
+      }
+      .img:hover{
+        transform: scale(0.9);
+      }
+
+      .picture{
+        display: inline-block;
+        padding: 8px;
+        margin: auto;
+        background: linear-gradient(130deg,#5c9ed4,#d47527);
+        animation:animasyon 2s linear infinite;
+        background-size: 200% 200%;
+      }
+      @keyframes animasyon{
+        25%{
+          background-position: left bottom;
+        }
+        50%{
+          background-position: right bottom;
+        }
+        75%{
+          background-position: right top;
+        }
+        100%{
+          background-position: left top;
+        }
+      }
+    </style>
+
+</head>
+<body>
+       <!-- Burası üst menü -->
+       <ul style="font-family:'Times New Roman', Times, serif; background-image:url(resimler/arkamenu.jpg);background-size: 100% 100%;" class="w-3 p-3 nav nav-tabs justify-content-center fs-5 ">
+     
+        <li class="nav-item img">
+          <a class="nav-link  text-dark img fas fa-home" href="anasayfa.html"> ANASAYFA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark img fas fa-users" href="arkadaslar.html"> ARKADAŞLAR</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark img fas fa-map-marked-alt" href="memleket.html"> MEMLEKET</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark img fas fa-star" href="hobi.html"> HOBİ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active  text-light bg-dark img fas fa-user-tie" aria-current="page" href="ozgecmis.html"> ÖZGEÇMİŞ</a>
+          </li>
+      </ul></div> 
+
+      <br>
+        <!-- Burası  grup bölümleri  -->
+      <div class="container">
+        <div class="row">
+            <!-- Burası yan profil card  -->
+          <div class="col">
+            <div class="card " style="width: 18rem; margin-left: 25px; background: rgb(255, 255, 255);">
+                <img src="resimler/profil.jpg"  style="padding: 15px; border-radius:50%; cursor:pointer;" class="card-img-top picture img" alt="...">
+                <div class="card-body"> 
+        
+                   <div style="background-color:rgb(114, 114, 114);padding-left: 5px; font-family:Cambria ;" class="text-light"> <i class="fas fa-user"></i> <strong>İsim Soyad</strong></div> <p style="font-family: Georgia;"> Asım Mutlu</p> 
+                   <div style="background-color: rgb(114, 114, 114);padding-left: 5px; font-family:Cambria" class="text-light"><i class="fas fa-map-marker-alt"></i> <strong>Adres</strong></div> <p style="font-family: Georgia;"> İstanbul/Kartal/Topselvi Mahallesi </p>  
+                   <div style="background-color: rgb(114, 114, 114);padding-left: 5px; font-family:Cambria" class="text-light"><i class="fas fa-envelope"></i> <strong>E-Posta</strong></div> <p style="font-family: Georgia;"> asimmutlu6134@gmail.com</p> 
+                   <div style="background-color: rgb(114, 114, 114);padding-left: 5px; font-family:Cambria" class="text-light"><i class="fas fa-map-marked-alt"></i> <strong>Memleket</strong></div> <p style="font-family: Georgia;"> Trabzon</p>  
+                   <div style="background-color: rgb(114, 114, 114);padding-left: 5px; font-family:Cambria" class="text-light"><i class="fas fa-birthday-cake"></i> <strong>Doğum Tarihi</strong></div> <p style="font-family: Georgia;"> 22.05.2001</p> 
+                  <p class="card-text"></p>
+                </div>
+               </div>
+          </div>
+
+          <div class="col">
+              <!-- Burası Eğitim bölümü -->
+            <ul class="list-group img">
+                <li class="list-group-item  fs-3 fw-bold text-light fas fa-graduation-cap"style="background-color:rgb(114, 114, 114);">  EĞİTİM</li>
+                <li class="list-group-item fas fa-angle-right fs-5"> Şehit Üsteğmen Gökhan İlkokul</li>
+                <li class="list-group-item fas fa-angle-right fs-5"> Emirsencer Orta Okul</li>
+                <li class="list-group-item fas fa-angle-right fs-5"> Anadolu İmam Hatip Lisesi</li>
+                <li class="list-group-item fas fa-angle-right fs-5"> Düzce Üniversitesi - Akçakoca MYO - Bilgisayar Programcılığı</li>
+              </ul>
+
+              <br>
+
+              <!-- Burası Bilgisayar bilgi bölümü -->
+                <ul class="list-group img">
+                  <li class="list-group-item fs-3 fw-bold text-light fas fa-laptop-code" style="background-color:rgb(114, 114, 114)">  BİLGİSAYAR BİLGİSİ</li>
+                  <li class="list-group-item fas fa-angle-right fs-5"> Microsoft Word <br><br>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">%85 </div>
+                   </div> 
+                  </li>
+                  <li class="list-group-item fas fa-angle-right fs-5"> Microsoft Excel <br><br>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">%70 </div>
+                   </div> 
+                  </li>
+                  <li class="list-group-item fas fa-angle-right fs-5"> HTML - CSS <br><br>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 65%">%65 </div>
+                   </div> 
+                  </li>
+                  <li class="list-group-item fas fa-angle-right fs-5"> C Sharp (C#) <br><br>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 50%">%50 </div>
+                   </div> 
+                  </li>
+                </ul>
+
+          </div>
+
+
+ 
+ 
+          <div class="col">
+
+           <!-- Burası Dil bölümü -->
+        <ul class="list-group img">
+          <li class="list-group-item fs-3 fw-bold text-light fas fa-language" style="background-color:rgb(114, 114, 114);"> DİL BİLGİSİ</li>
+          <li class="list-group-item fas fa-angle-right fs-5"> İngilizce <br><br>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%">%35 </div>
+           </div> 
+            </li>
+          <li class="list-group-item fas fa-angle-right fs-5 "> <i class="fas fa-deaf"></i> İşaret Dili <br><br>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated fs-5" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">%90 </div>
+           </div> 
+           <br>
+          </li>
+        </ul>
+  
+
+          <br>
+      
+          <!-- Burası katıldığı dersler ve sertifika bölümü -->
+      <ul class="list-group img">
+        <li class="list-group-item fs-3 fw-bold text-light fas fa-certificate" style="background-color:rgb(114, 114, 114);"> Katıldığı Dersler ve Sertifikalar</li>
+        <li class="list-group-item fas fa-angle-right fs-5"> Udemy - İngilizce kurs eğitimi 
+          </li>
+        <li class="list-group-item fas fa-angle-right fs-5 "> ODTÜ - Web Tasarımının Temelleri
+          HTML ve CSS Sertifikası (Çevrim içi eğitim) 
+          
+        </li>
+       </ul>
+    
+       <br>
+
+       <!-- Burası sosyalcmedya bölümü -->
+       <ul class="list-group">
+        <li class="list-group-item fs-3 fw-bold text-light fas fa-thumbtack" style="background-color:rgb(114, 114, 114);"> Sosyal Medya</li>
+        <li class="list-group-item fas  fs-5"> <br>
+          
+          <div class="text-center">   
+          <ul style="margin:0; padding:0;">
+            <li style="display:inline-block; list-style:none; letter-spacing: 10px;">
+                <a style="color:rgb(0, 132, 255); font-size:45px"  href="https://www.facebook.com/profile.php?id=100002167157051"target="_blank"><i class="fab fa-facebook img"></i></a>
+                <a style="color:rgb(0, 174, 255); font-size:45px" href="https://twitter.com/Asim_Mutlu_"target="_blank"><i class="fab fa-twitter img"></i></a>
+                <a style="color:rgb(231, 77, 66); font-size:45px" href="https://www.instagram.com/_asim_mutlu_/?hl=tr"target="_blank"><i class="fab fa-instagram img"></i></a>
+            </li>
+         </ul>    
+         </div> <br>
+          
+          </li>
+      </ul>
+      </div>
+
+</body>
+</html>

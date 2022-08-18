@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kamp Yolcusu</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet" >
+    <style>
+      .img{
+         cursor:pointer;
+        transition:0.9s;
+      }
+      .img:hover{
+        transform: scale(0.9);
+      }
+    </style>
+</head>
+<body>
+      <!-- Burası üst menü -->
+    <ul style="font-family:'Times New Roman', Times, serif; background-image:url(resimler/arkamenu.jpg);background-size: 100% 100%;" class="w-3 p-3 nav nav-tabs justify-content-center fs-5 ">
+     
+        <li class="nav-item">
+          <a class="nav-link active text-light  bg-dark img fas fa-home" aria-current="page" href="anasayfa.html"> ANASAYFA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark img fas fa-users" href="arkadaslar.html"> ARKADAŞLAR</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark img fas fa-map-marked-alt" href="memleket.html"> MEMLEKET</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark img fas fa-star" href="hobi.html"> HOBİ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark img fas fa-user-tie" href="ozgecmis.html"> ÖZGEÇMİŞ</a>
+          </li>
+      </ul></div> 
+      <br>
+
+      <!-- Burası atlıkarınca,resimler,söz -->
+       <div class="container">
+    <div class="row">
+      <!-- Burası ilk sol resim -->
+          <div class="col">
+            <img src="resimler/yanresim1.jpg"class="rounded-2 img" width="300" alt="">
+          </div>
+          <div class="col-6">
+            <div id="carouselExampleIndicators" class="carousel jquery " style="margin-top: 80px;" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="resimler/karınca1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="resimler/karınca2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="resimler/karınca3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="resimler/karınca4.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!-- Burası söz bölümü -->
+            <figure class="text-center  text-dark" style="margin-top: 40px;">
+              <blockquote class="blockquote fw-bolder fs-5">
+              <p>"Hayat bir kitaptır ve gezip görmeyenler hep aynı sayfayı okur." </p>
+              </blockquote>
+              <figcaption class="blockquote-footer text-dark fs-4 fw-normal" >
+                 <cite title="Source Title"> St. Agustine</cite>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- Burası ilk sag resim -->
+          <div class="col">
+            <img src="resimler/yanresim2.jpg" class="rounded-2 img" width="300" alt="">
+          </div>
+        </div>
+
+       <br><br><br>
+
+      <!-- Burası sağ sollu resimler ve yazılar -->
+      
+        </div>
+        <div class="container px-4">
+
+          <!-- Burası başlık -->
+<h1 style="text-align: center; font-size: 100px; font-family:Monotype Corsiva;">「KampYolcusu」</h1>
+
+        <br>
+
+          
+          <!-- Burası dolgu kafes metinleri ve fotoğraflar -->
+          <div class="row gx-5">
+            <div class="col-3">
+             <div class="p-3 border" style="background-color:antiquewhite"><img  src="resimler/solresim3.jpg" class="img-thumbnail " alt="..."></div>
+            </div>
+            <div class="col-9"><p class="fs-1" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">İLK KAMP SEYAHATİNDE NASIL GİYİNİLMELİ NELER GÖTÜRÜLMELİ</p><br>
+              <div class="p-3 border" style="background-color:rgb(207, 207, 207)">İlk kamp deneyiminiz için kıyafet seçimi önemlidir . Bulunduğunuz hava şartlarının konumu gideceğiniz alanın durumu bunlara etkendir. İlk kamp deneyiminizi elimizdeki kıyafetleri değerlendirerek yapmak en doğru olanıdır. Lakin devam edip etmeyeceğinizi bilmediğiniz bir durum içinde gereksiz yere kıyafet almak durumunda olmazsınız.
+                <br>
+                  <strong> 1-KİRLENMEK GÜZEL BİR ŞEYDİR : </strong>
+                  
+                  Kamp yapmak doğada olmak sizi temiz ve pak bir giyim tarzından uzak tutar. Çadırı kurmak kamp alanını temizlemek ateş yakmak odun toplamak toz toprak ve çamurla bir olmaktır bu yüzden kirlenmek için en uygun kıyafetinizi seçin
+                  
+                  <br><strong>2- AYAKKABI TERCİHİ : </strong>
+                  
+                  Kamp yaparken zamanın çoğunu ayakta geçireceğiniz için kendinize rahat bir ayakkabı seçmeniz gerekiyor. Çamur toz toprak çalı ve otları da işin içine katarsak bu durumları uygun ayakkabı seçmek daha uygun olacaktır. bu tarz bir ayakkabınız yoksa en rahat bir spor ayakkabı ile ilk deneyiminizi yapabilirsiniz
+                  
+                  <br><strong>3-RAHAT VE KIYAFETLER : </strong>
+                  
+                  Kamp yaparken ayakta olduğunuz kadarda hareketli olacaksınız oturup kalmak ateşe eğilmek ve çadıra girip çıkarken dizlerinizin üzerinde durmak gibi .. bu sebeplerden dolayı rahat hareket edecek eğilip kalkacağınız kıyafetleri tercih edebilirsiniz..
+                  
+                  <br><strong>4- KAT KAT GİYİNMEK : </strong>
+                  
+                  Değişen hava koşullarına karşı en ideal olanı kat kat giyinip-soyunmaktır. Sabah erken saatleri havanın ısısı, gün ortasına doğru değişim gösterir, geceleri ise her iki gün diliminden farklı ısı değerleri ile karşılaşabilirsiniz. Tüm bu süreç içinde doğru olan değişim ile uyumlu katmanları yanınızda bulundurmaktır. Giysileri ilk kez kamp yapacak kişiler için mutlaka outdoor ile uyumlu malzemeden üretilmiş olması gerekmez. Yün kazaklar, polar sweatshirtler hemen herkesin dolabında var olabilen giysilerdir.
+                  
+                 <br><strong>4-BİR BERE ÇANTANIZDA OLSUN : </strong>
+                  
+                   Yaz ortasında bile, gece sıcaklık değeri beklenmedik bir anda düşebilir. İşte tam da bu noktada rahat ve sıcak bir bere, gece boyunca sıcak kalmanıza yardımcı olur. Berenin uyku sırasında giyilebilecek kadar rahat olduğundan emin olun.
+                  
+                  <br><strong>5- GÜNEŞ KORUYUCU ŞAPKA :</strong>
+                
+                   Özellikle yazın kamp yaparken tüm günü dışarıda geçirmeniz gerekecek, bu nedenle sizi güneşten koruyacak bir şapka bulundurun. Ayrıca şapka takmak, sık saç yıkama alışkanlığınızı evde bıraktığınız kamp alanında en büyük kurtarıcınız olacaktır.
+                  
+                 <br><strong>6- GÜNEŞ GÖZLÜĞÜ : </strong>
+                  
+                  <br>Kırılıp-çizilmesin diye ucuz bir güneş gözlüğü ile yola çıkmayın. Kamp yaparken tüm günü dışarıda, güneş altında geçireceksiniz. UV ışınlarından sizi ve gözlerinizi koruyacak en iyi güneş gözlüğünüz yanınızda olsun.
+       
+            </div>
+          </div>
+        </div>
+
+        <br><br>
+
+        <div class="container px-4">
+          <div class="row gx-5">
+            <div class="col-9"><p class="fs-1"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">İLK KAMP VE YER SEÇİMİ</p><br>
+             <div class="p-3 border "style="background-color:rgb(207, 207, 207)">
+              lk defa kampa yapacaklar için ilk kamp deneyimi oldukça önemlidir. Doğru şekilde yapılacak bir kamp size hayatınız boyunca güzel bir anı olacağı gibi bilinçsiz yapılacak bir kamp size kötü bir tecrübe ve anılar bırakabilir. Bu yazımda size ilk kamp yapacaklar için yer seçimi hakkında kendi deneyimlerime dayanarak bilgi paylaşacağım
+
+              <br><strong>1-YAZ MEVSİMİNDE KAMP YAPIN : </strong>
+              
+              Daha önce kamp yapmamış doğada kalmamış çadırda uyumamış iseniz ilk deneyiminizi yaz aylarında yapın. yaz mevsiminde çadırda uyumak daha az kamp eşyası demektir. Böylelikle sizin için uygun yada uygun olmadığını bilmediğiniz bir kamp hayatı için gereksiz masraf yapmamış olursunuz. Yaz mevsiminde çadırın içi sıcak olacağından dolayıda dışarıda daha çok vakit geçip doğayı ve kamp hayatını tanımanız açısından daha çok zamanınız olması demektir.
+              
+             <br><strong>2- KAMP YAPACAĞINIZ YERİ YAKIN BİR BÖLGEDE SEÇİN : </strong>
+              
+              İlk kamp yapacağınız yerin evinize yakın yer olması bir sizin için bir avantaj olacaktır. kamp hayatı çadırda uyumak yada olumsuz bir durumda toparlanıp geri dönmesi kolay bir bölge sizin için daha iyi bir seçim olacaktır
+              
+             <br><strong>3- DAĞ VE TEPELERDE KAMP KURMAYIN : </strong>
+              
+              İlk kamp deneyimi için deniz seviyesinden yüksek yerlerden uzak durmak doğru bir tercih olacaktır. yüksek tepe ve dağlık bölgelerde gündüz sıcaklığı ile gece sıcaklığının fark gösterme olasılığı yüksek bir ihtimaldir. Buda size soğuk bir gecede kamp deneyimi yaşamanıza sebep olabilir. Kamp ortamında hava soğukluğu önemli bir konudur. denize yakın bölgelerde gündüz ile gece sıcaklığı genelde bir birine yakın olduğundan daha çok alçak deniz seviyesindeki yerleri tercih ederseniz ilk kamp deneyiminiz için daha güzel bir gece geçirmenizi sağlar.
+              
+             <br><strong>4-MÜMKÜN OLDUKÇA KAMP ALANLARI TERCİH EDİN : </strong>
+              
+              İlk kamp deneyimi için en uygun yer kamp alanlarıdır. Tam donanımlı kamp alanlarında çocuk parkları ,çay ve kahve içeceğiniz cafeler yemek yemek için restoranlar ve eksik olan kamp eşyalarını bulabileceğiniz dükkanlar olur. çadırda rahat edemez seniz odalarda kalabilir çocuklarınız var ise güvenli şekilde çocuk parklarında vakit geçire bilirsiniz. Ve mutlaka kamp alanınızı önceden rezervasyon yaptırın. Rezervasyonsuz gidildiğinde yer bulmama şansınızı unutmayın
+              
+             <br><strong>5- MUTLAKA DENEME KAMPI YAPIN : </strong>
+              
+              İlk kamp deneyiminden önce mutlaka bir deneme yapın . Çocuklarınız var ise bu daha önemli bir konudur. uyku tulumunda uyuya biliyor musunuz çadırda yatabiliyor musunuz bu tarz deneyimleri ilk başta bahçeniz var ise bahçede balkonda yada evde bir kerede olsa kendinizi deneyin.
+              
+             <br><strong>6- KAMP TATİLİNİZİ KISA TUTUN : </strong>
+              
+              İlk kamp deneyimiz için planınızı kısa tutun bir yada iki gün yapmaya özen gösterin. kamp hayatı hoşunuza gitmez ise 1 haftalık rezervasyon paranız cebinizde kalır. bu tecrübe ile de eksiklerinizi tamamlar bir sonraki kampa daha bilinçli gidersiniz.
+              
+          
+             </div>
+            </div>
+            <div class="col-3">
+              <div class="p-3 border " style="background-color:antiquewhite"><img  class="img-thumbnail " src="resimler/sagresim2.jpg" alt=""></div>
+            </div>
+          </div>
+        </div>
+
+        <br><br>
+
+        <div class="container px-4">
+          <div class="row gx-5">
+            <div class="col-3">
+             <div class="p-3 border" style="background-color:antiquewhite"><img  src="resimler/solresim1.jpg" class="img-thumbnail " alt="..."></div>
+            </div>
+            <div class="col-9"><p class="fs-1"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">KAMP ÇADIRI SEÇİMİ</p><br>
+              <div class="p-3 border" style="background-color:rgb(207, 207, 207)">Çadırı Hangi Mevsimde Kullanacaksınız?<br>
+
+                Kamp çadırı seçimi yaparken 3 mevsim, 4 mevsim, 5 mevsim (ekspedisyon çadırları) gibi ayrımlar olduğunu fark edeceksiniz. İsimlerinden de anlaşılacağı gibi bu ifadeler çadırların kullanılabileceği mevsim koşullarını belirtmek için kullanılırlar.
+                
+                <br> <strong>3 Mevsim Çadırlar :</strong> İlkbahar, yaz ve sonbahar aylarında kullanılabilen hem nispeten uygun fiyatları ve hafif yapılarıyla, hem de temel ihtiyaçları karşılamaları ve mevsim normallerinde yağan yağmura karşı başarılı korumaları bakımından en uygun seçim olabilirler. Çift tenteli (katmanlı) çadırlarda, sıcaklığın yüksek olduğu durumlarda dış tente çıkarılarak kullanılabilir. Genelde fiberglas çadır polleri kullanılsa da, alüminyum pol kullanan üreticiler de mevcuttur.
+                
+               <br><strong>4 Mevsim Çadırlar:</strong>  Soğuk ve karlı bir bölgede kamp yapmayı düşünüyorsanız 4 mevsim çadır seçmek daha doğru bir seçim olacaktır. Bu çadırlarda kullanılan kumaşlar, poller ve diğer malzemeler zorlu koşullar düşünülerek üretilmiştir. Aşırı rüzgar, yağmur ve karda güvenle barınabileceğiniz sağlam malzemelerden yapılırlar.
+                
+               <br><strong>5 Mevsim (Ekspedisyon) Çadırlar:</strong>  4 mevsim çadırlara ek olarak, özel tasarımlarıyla yüksek irtifa dağcılığında kullanılan çok güçlü çadırlardır. Ekstrem koşullarda konaklamaya elverişli olarak üretilmişlerdir. Bu tip çadırlarda yükseklik fazla değildir ve daha fazla pol vardır. Dayanıklı poller, özel kalın kumaşları ve kar etekleri nedeniyle genelde diğer çadırlara göre daha ağırdırlar. Ağır hava koşullarına, en sert rüzgarlara karşı oldukça dirençli, kar yüküne dayanabilecek ve sağanak yağmurlarda su geçirmeden güvenle kullanılabilirler.
+                
+               <br><strong>Şekillerine Göre Çadırlar:</strong> 
+                
+                Çadırlar genel olarak şekillerine göre Üçgen, Dome (Kubbe) ve Tünel olmak üzere 3 çeşitte sınıflandırılmaktadırlar.
+                
+               <br><strong>Üçgen Çadırlar:</strong> Günümüzde artık çok fazla tercih edilmeyen çadır modelidir. Adından da anlaşılacağı gibi üçgen bir yapıya sahiptir ve şeklinden dolayı rüzgara karşı direnci daha azdır. Tasarımları gereği ağırlıkları daha fazla ve kurulumları diğer çadırlara göre çok daha zordur.
+                
+               <br><strong>Kubbe (Dome) Çadırlar:</strong>  Sunduğu geniş iç hacim, ergonomik yapısı ve dayanıklılıklarıyla en çok kullanılan çadır şeklidir. Tasarımları gereği hem çok hafif, hem de kurulumları pratik çadırlardır. Basit modellerinde çadırın tepesinde kesişen iki esnek pol bulunur. Daha gelişmiş modellerde pol sayısı fazlalaşır, poller daha fazla noktada kesişir ve çadırın mukavemeti de artar. Giriş çıkışları rahattır ve kapı bölümlerinde fazla eşyalarınızı koyabileceğiniz bagaj bölümleri de olmaktadır.
+                
+               <br><strong>Tünel Çadırlar:</strong>  Tasarımları gereği, rüzgar yönüne dikkat edilerek kurulduğunda sert hava koşullarına çok dayanıklı çadırlardır. Özellikle zorlu koşullarda barınma ihtiyacı için profesyonel dağcılar tarafından tercih edilen bir çadır türüdür. Tünel çadırlar genellikle tek kişiliktir ve iç hacimleri oldukça kısıtlıdır.
+                
+               <br><strong>Dikkat Edilmesi Gereken Özellikler:</strong> 
+                
+                Çadırda Kaç Kişi Kalacak ?
+                
+                Çadır seçimi yaparken mutlaka çadırı paylaşacağınız kişi sayısını da göz önünde bulundurmanız gerekiyor, ancak unutulmamalı ki çadırlarda kişi sayısı arttıkça, çadırın ebatı ve ağırlığı da artmaktadır. Yani aracınızda veya kamp çantanızda kaplayacağı alan ve sırtınızda taşımanız gerekecek ağırlığın artması anlamına geliyor. Seçmeyi düşündüğünüz çadırda bagaj bölümü yoksa, belirlediğiniz kişi sayısına +1 kişi şeklinde bir seçim yapmanız daha uygun olabilir. Çünkü kamp alanında kullandığınız malzemeleri de çadırınızın içine almanız gerekecektir.
+                
+                Dikkat etmeniz gereken bir diğer önemli noktada çok büyük çadır seçmemek, bu tür çadırları kurarken yeterli ve uygun alan bulmakta zorlanabilirsiniz. Ayrıca çok büyük çadırlar rüzgarlı havalarda size sorun yaşatabilir.
+                
+                Her iki kişilik çadırın aynı büyüklükte olmadığını bilmenizde de fayda var. İki kişilik dar, basık çadırlar olduğu gibi, iki kişilik, ferah çadırlar da olabilmektedir.
+                
+               <br><strong>Ağırlık ve Hacim:</strong> 
+                
+                Kamp yapacağınız yere aracınızla gidecekseniz ağırlık ve hacim sizin için çok önemli görünmese de, yine de aracınızın bagaj kısmında daha az yer kaplaması bakımından dikkate almanız gerekebilir. Özellikle uzun yürüyüşler yada tırmanış yaptıktan sonra kamp yapacaksanız olabildiğince hacmi küçük ve hafif bir çadır tercih etmeniz uygun olacaktır. Tabi burada unutulmaması gereken, hafif ve daha küçük hacimli ürünler daha pahalı olacaktır.
+                
+                <br><strong>Çadır Polleri:</strong> 
+                
+                Alüminyum malzemeden yapılmış poller kış aylarında ve fırtınalı sert havalarda daha yüksek güç ve dayanıklılık sağlar. Fiber malzemeden yapılmış poller ise soğuk ve sert havalarda mukavemetlerini kaybeder ve kırılgan bir yapıya bürünürler. Çadır seçimi yaparken pollerin alüminyum malzemeden yapılmış olmasına dikkat edin. Tabi yaz aylarında kamp yapacaksanız fiberglas poller de işinizi görecektir.
+                
+                <br><strong>Havalandırma:</strong> 
+                
+                Kamp esnasında çadırın havalandırması çok önemlidir. Yeteri kadar havalandırılmayan çadırda içten ıslanma meydana gelecektir. Havalandırma pencereleri olan çadırlarda içten ıslanma probleminin önüne geçmek daha kolaydır. Kış aylarında dahi kamp yaparken bu pencereleri açarak çadır içi hava sirkülasyonunu sağlayabilir ve temiz havada daha rahat uyuyabilirsiniz.
+                
+                <br><strong>Kapı Sayısı:</strong>
+                
+                Çadırlar tek kapılı veya çift kapılı olabilir. Çift kapılı bir çadır seçmeniz size her zaman kolaylıklar sağlayacaktır.
+                
+                <br><strong>Bagaj Bölümü:</strong> 
+                
+                Çadırın iç hacminin tamamen size kalmasını sağlar. Çadırların önünde veya her iki tarafında bulunabilir. Bu alanlar Kamp malzemelerinizi korumaya, kötü havalarda yemek yapmanıza ve kamp botlarınızı çıkarmanıza olanak sağlar.
+                
+                Çadır İçi Cepler: Çadırınızın iç bölümünde özellikle kenarlarda bulunurlar. Ceplerden ne kadar çok olursa eşya ve malzemelerinizi o kadar rahat organize edebilirsiniz.
+                
+                <br><strong>Taban malzemesi:</strong> 
+                Çadır seçimi yapılırken gözden kaçırılan fakat kullanmaya başlayınca önemi ortaya çıkan taban malzemesinin yeteri kadar dayanıklı, su geçirmez ve fazlaca kalın, ağır olmamasına dikkat etmelisiniz.
+                
+                <br><strong> Hatırlatmalar:</strong><br>
+                <ol type="1">
+
+                  <li>Çadırı hangi mevsim kullanacağımıza dikkat etmeliyiz.</li>
+                  <li>Kamp yapacağımız alana yürüyerek ulaşacaksak çadırın ağırlığı ve hacmine dikkat etmeliyiz.</li>
+                  <li>Çadır seçimi yaparken, çadırı kaç kişi kullanacağımızı dikkate almalıyız.</li>
+                  <li>Çadırımızın havalandırma özellikleri önemli.</li>
+                  <li>Çift girişi olan çadırların kullanımı daha kolaydır.</li>
+                  <li>Çadır zemin malzemesi kaliteli olmalı.</li>
+                  <li>Çadır içindeki cepler kullanımda kolaylık sağlar.</li>
+                  <li>Bagaj kısmı olan çadırlar çok daha kullanışlıdır.</li>
+                  <li>Çadır kapılarında sineklik mutlaka olmalıdır.</li>
+                  <li> Alüminyum poller daha dayanıklıdır. </li>
+                  <li>Çadır içerisinde kesinlikle ateş yakmayın, çadır kumaşları oldukça yanıcı malzemeden üretilmişlerdir.</li>
+                  
+                  </ol>
+            </div>
+          </div>
+        </div>
+    
+    
+    <br><br>
+
+
+      <!-- Burası Akordeon bölümü  -->
+      <h1 style="text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">BAZI KAMP ÜRÜN FİYATLARI</h1><br>
+        <div class="row">
+     <div class="col-sm-1"></div>
+   <div class="accordion accordion-flush col-sm-10" id="accordionFlushExample">
+    <div class="accordion-item ">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed bg-success text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          KAMP ÇADIR FİYATLARI
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"> <div class="row">
+          <div class="col-sm-4">
+        <div class="card " style="width: 18rem;">
+          <img src="resimler/cadır3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">2 KİŞİLİK ÇADIR - YEŞİL </h5>
+            <p class="card-text">Bu çift kişilik ve kolay kurulabilen kamp çadırı yaz aylarınızda yaptığınız kamplarınız için tasarlandı.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Kapasite </strong><br>
+              140 X 200 cm oda. (70cm'lik 2 tulum) Kullanılabilir maks. yükseklik: 100 cm</li>
+            <li class="list-group-item"><strong>Taşıma kolaylığı </strong><br>
+              Kılıf boyutu: 63cm X 22cm X 22cm. Ağırlık: 1,7 kg</li>
+            <li class="list-group-item"><strong>Rüzgar direnci </strong><br>
+              30 km/sa (4 şiddeti) rüzgara dayanıklı: Rüzgar tünelinde testlerle onaylanmıştır</li>
+            <li class="list-group-item"><strong>Su geçirmezlik </strong><br>
+              Bu çadır SU GEÇİRİR.</li>
+              <li class="list-group-item"><strong>Isı azaltma </strong><br>
+                2 havalandırma (kapı ve tente). Fresh teknolojisi bulunmaz.</li>
+              <li class="list-group-item bg-warning"><strong> FİYAT : 230.00TL </strong><br></li><br>
+                <a href="https://www.decathlon.com.tr/C-576573-kamp-cadiri" target="_blank" class="btn btn-primary ">Daha fazla çadır için TIKLAYINIZ.</a>
+          </ul>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img src="resimler/cadır1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">3 KİŞİLİK ÇADIR - FRESH&BLACK XL</h5>
+            <p class="card-text">Hobi amaçlı kamp mı yapıyorsunuz? Tasarımcılarımız kullanışlı ve kolay kurulabilen bu 3 kişilik çadırı sizi dış koşullara karşı korumak için tasarladı.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Kapasite </strong><br>
+              210 X 210 cm oda Kullanılabilir maks. yükseklik: 115 cm. 1 eşya bölmeli çadır.</li>
+            <li class="list-group-item"><strong>Taşıma kolaylığı </strong><br>
+              Kılıf boyutu: 55 X 17 X 16 cm / 15,5 L Ağırlık: 5,3 kg.</li>
+              <li class="list-group-item"><strong>Rüzgar direnci </strong><br>
+                5 şiddetinde rüzgara (40 km/sa) dayanıklı: Rüzgarlı döner platform testi onaylı</li>
+                <li class="list-group-item"><strong>Su geçirmezlik </strong><br>
+                  Su sütunu (Schmerber): Dış tente > 2000 mm. Zemin matı > 5000 mm.</li>
+                  <li class="list-group-item"><strong>Isı azaltma </strong><br>
+                    Mekanik havalandırma, sineklikli kapı ve iyi bir uyku için Fresh & Black kumaş</li>
+                    <li class="list-group-item bg-warning"><strong> FİYAT : 990.00TL </strong><br>
+                    </li><br>
+                    <a href="https://www.decathlon.com.tr/C-576573-kamp-cadiri" target="_blank" class="btn btn-primary ">Daha fazla çadır için TIKLAYINIZ.</a>
+          </ul>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img src="resimler/cadır2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">5 KİŞİLİK ÇADIR - ARPENAZ 5.2 F&B</h5>
+            <p class="card-text">Arpenaz 5.2 direkli çadır, iki ayrı odası ve geniş yaşam alanı bulunan bir çadır arayan 5 kişilik kamp grubu için tasarlandı.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Kapasite </strong><br>
+              2 Oda: 210x210 - 140x210 | Yaşam alanı: 5 m² | brandalı zemin matı</li>
+            <li class="list-group-item"><strong>Taşıma kolaylığı </strong><br>
+              Dikdörtgen taşıma çantası | 60 X 36 X 36 cm | 78 litre | 16 kg</li>
+              <li class="list-group-item"><strong>Rüzgar direnci </strong><br>
+                6 şiddetinde rüzgara karşı dayanıklı - yaklaşık 50 km/sa | Rüzgar tüneli testi</li>
+                <li class="list-group-item"><strong>Su geçirmezlik </strong><br>
+                  Duş altında tropik yağmur koşullarının oluşturulduğu test. 200 mm su / sa / m² </li>
+                  <li class="list-group-item"><strong>Isı azaltma </strong><br>
+                    Fresh kumaş: güneş altındaki çadırınızın iç ısısını azaltır.</li>
+                    <li class="list-group-item bg-warning"><strong> FİYAT : 4.250.00TL</strong><br>
+                    </li><br>
+                    <a href="https://www.decathlon.com.tr/C-576573-kamp-cadiri" target="_blank" class="btn btn-primary ">Daha fazla çadır için TIKLAYINIZ.</a>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed bg-secondary text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          KAMP ARAÇ GEREÇ FİYATLARI
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">    <div class="row">
+      <div class="col-sm-4">
+    <div class="card " style="width: 18rem;">
+      <img src="resimler/kamparac1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">ŞİŞME YATAK - 1 KİŞİLİK - 70 CM </h5>
+        <p class="card-text">Air Basic şişme yatak, en uygun fiyata sahip, şişirilebilir tek kişilik mat arayanlar için tasarlandı.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item "><strong>Uyku kalitesi</strong><br>
+          Boyutlar: 190 X 70 X 16 cm | Kadife dokunuşlu yüzeyiyle uyku rahatlığı.</li>
+          <li class="list-group-item"><strong>	Taşıma kolaylığı
+            </strong><br>Ağırlık: 1,9 kg | Yer kaplama: 5,3 L</li>
+            <li class="list-group-item"><strong>	Dayanıklılık
+            </strong><br>Minimum 60 kere şişirme / söndürme sürecine dayanıklı olduğu kanıtlanmış mat.</li>
+            <li class="list-group-item bg-warning"><strong> FİYAT : 140.00TL</strong><br></li><br>
+            <a href="https://www.decathlon.com.tr/C-576578-kamp-yataklari-matlari-ve-uyku-tulumlari" target="_blank" class="btn btn-primary ">Daha fazla şime yatak-mat için TIKLAYINIZ.</a>
+      </ul>
+    </div>
+</div>
+<div class="col-sm-4">
+    <div class="card" style="width: 18rem;">
+      <img src="resimler/kamparac2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">KATLANABİLİR ALÜMİNYUM MASA NURGAZ</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><strong>Hafiflik </strong><br> 2 Kg</li>
+        <li class="list-group-item"><strong>Taşıma kolaylığı</strong><br>
+          Katlanır yapısı ve taşıma çantası sayesinde kolaylıkla taşıyabilirsiniz</li>
+        <li class="list-group-item bg-warning">FİYAT : 285.00TL</li><br>
+        <a href="https://www.decathlon.com.tr/C-804606-kamp-masasi" target="_blank" class="btn btn-primary ">Daha fazla masa için TIKLAYINIZ.</a>
+      </ul>
+    </div>
+</div>
+<div class="col-sm-4">
+    <div class="card" style="width: 18rem;">
+      <img src="resimler/kamparac3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">KATLANIR KAMP SANDALYESİ - DAYANIKLI - MAVİ </h5>
+        <p class="card-text">Konforlu bir kamp deneyimi için tasarlandı!</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item "><strong>Rahatlık</strong><br>
+          2 kol koyma yeri | 1 bardak bölmesi | Oturma yeri yüksekliği: 41 cm</li>
+          <li class="list-group-item"><strong>	Taşıma kolaylığı
+            </strong><br>Taşımayı kolaylaştıran entegre kayış | Toplam ağırlık: 2,8 kg</li>
+            <li class="list-group-item"><strong>	Dayanıklılık
+            </strong><br>Boruları ve kumaşı çok dayanıklıdır | Maks. 110 kg ağırlık ile kullanılabilir</li>
+            <li class="list-group-item bg-warning"><strong> FİYAT : 135.00TL</strong><br></li><br>
+            <a href="https://www.decathlon.com.tr/C-529803-masa-sandalye-tabure" target="_blank" class="btn btn-primary ">Daha fazla sandalye için TIKLAYINIZ.</a>
+      </ul>
+      </div>
+    </div>
+  </div></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-1"></div>
+    </div>
+
+    
+    <br><br><br>
+
+
+    <!-- Google kamp haritası  -->
+    <div class="row">
+  <div class="col"></div>
+    <iframe class="col-8" loading="lazy" src="https://www.google.com/maps/d/u/1/embed?mid=1OXYU1CRdfYLRTIYIjsOnakf2xy8" width="750" height="400"></iframe>
+<div class="col"></div>
+  </div>  
+
+ <br><br>
+
+    <!-- Kayan yazı  -->
+ <marquee behavior=alternate><strong>Asım Mutlu</strong></marquee>
+
+      <!-- Burası en alt icon kısım  -->
+    <div class="text-center">   
+      <ul style="margin:0; padding:0; targey">
+        <li style="display:inline-block; list-style:none; letter-spacing: 10px; ">
+            <a style="color:rgb(0, 132, 255); font-size:45px"  href="https://www.facebook.com/profile.php?id=100002167157051" target="_blank"><i class="fab fa-facebook img"></i></a>
+            <a style="color:rgb(0, 174, 255); font-size:45px" href="https://twitter.com/Asim_Mutlu_"target="_blank"><i class="fab fa-twitter img"></i></a>
+            <a style="color:rgb(231, 77, 66); font-size:45px" href="https://www.instagram.com/_asim_mutlu_/?hl=tr"target="_blank"><i class="fab fa-instagram img"></i></a>
+        </li>
+    </ul>    
+    </div>
+
+       <!-- Site Yukarı Çıkma Kodu -->
+       <script language="javascript" src="http://ir.sitekodlari.com/yukaricik1.js"></script>
+<br>
+
+</body>
+</html>
