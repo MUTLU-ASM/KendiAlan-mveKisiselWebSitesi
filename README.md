@@ -1,4 +1,6 @@
 # KisiselWebSitesi
+
+Naştan sona kendim oluşturmuş olduğum web sitesi.
 ---
 # Projenin Konusu
 
