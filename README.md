@@ -1,7 +1,5 @@
 # KisiselWebSitesi
 
-Naştan sona kendim oluşturmuş olduğum web sitesi.
----
 # Projenin Konusu
 
 Bu projede ilk sayfa (anasayfa.html) kişisel ilgi alanımla ilgili bir sayfa bu sayfanın içeriği Kampçılar için oluşturulmuştur.
